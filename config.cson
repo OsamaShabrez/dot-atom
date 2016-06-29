@@ -21,10 +21,8 @@
       "/var/www/app;/Users/LordOsama/vagrant/drzolb.dev"
     ]
     ServerPort: 9999
-  "sync-settings":
-    _analyticsUserId: "d52913a8-4d45-4585-90d9-edc48865dbab"
-    _lastBackupHash: "e9becf1ad365492125fb98708ad5f7753f29f1bf"
-    gistId: "42268760edd13dde93dc"
-    personalAccessToken: "5dfea05d8646d359b5c2a3fc40d697225c0a0dda"
   welcome:
     showOnStartup: false
+".angular.html.text":
+  editor:
+    tabLength: 4
