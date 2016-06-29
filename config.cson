@@ -1,0 +1,30 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "7b52a3a8-5f19-40a6-86a6-791a457b6c7e"
+  core:
+    themes: [
+      "one-dark-ui"
+      "monokai-seti"
+    ]
+  editor:
+    fontSize: 10
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "6ddb4dff-5bcb-08af-ae73-69cdb414f5b3"
+  "one-dark-ui": {}
+  "php-debug":
+    GutterPosition: "Left"
+    PathMaps: [
+      "/var/www/app;/Users/LordOsama/vagrant/drzolb.dev"
+    ]
+    ServerPort: 9999
+  "sync-settings":
+    _analyticsUserId: "d52913a8-4d45-4585-90d9-edc48865dbab"
+    _lastBackupHash: "e9becf1ad365492125fb98708ad5f7753f29f1bf"
+    gistId: "42268760edd13dde93dc"
+    personalAccessToken: "5dfea05d8646d359b5c2a3fc40d697225c0a0dda"
+  welcome:
+    showOnStartup: false
