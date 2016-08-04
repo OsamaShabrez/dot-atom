@@ -1,6 +1,7 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "7b52a3a8-5f19-40a6-86a6-791a457b6c7e"
+    general:
+      _analyticsUserId: "7b52a3a8-5f19-40a6-86a6-791a457b6c7e"
   core:
     themes: [
       "one-dark-ui"
