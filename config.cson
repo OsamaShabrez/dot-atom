@@ -8,7 +8,7 @@
       "monokai-seti"
     ]
   editor:
-    fontSize: 10
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
@@ -18,10 +18,8 @@
   "one-dark-ui": {}
   "php-debug":
     GutterPosition: "Left"
-    PathMaps: [
-      "/var/www/app;/Users/LordOsama/vagrant/drzolb.dev"
-    ]
-    ServerPort: 9999
+    PathMaps: []
+    ServerPort: 8899
   welcome:
     showOnStartup: false
 ".angular.html.text":
