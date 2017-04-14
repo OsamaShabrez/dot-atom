@@ -3,25 +3,31 @@
     general:
       _analyticsUserId: "7b52a3a8-5f19-40a6-86a6-791a457b6c7e"
   core:
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "monokai-seti"
+      "atom-dark-ui"
+      "atom-dark-syntax"
     ]
   editor:
-    fontSize: 16
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "6ddb4dff-5bcb-08af-ae73-69cdb414f5b3"
+  "linter-ui-default": {}
   "one-dark-ui": {}
   "php-debug":
     GutterPosition: "Left"
     PathMaps: []
     ServerPort: 8899
+  "seti-icons": {}
   welcome:
     showOnStartup: false
 ".angular.html.text":
   editor:
     tabLength: 4
+"tree-view":
+  hideVcsIgnoredFiles: false

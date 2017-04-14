@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+        "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-117114-4114-1oizthw"
+    ]
+  ],
+  "_from": "../d-117114-4114-14mwfji/package.tgz",
+  "_id": "atom-icons@0.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+    "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117114-4114-14mwfji/package.tgz",
+  "_shasum": "63cfba7b95233f9345454fa7589877f22b60db24",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117114-4114-14mwfji/package.tgz",
+  "_where": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-117114-4114-1oizthw",
+  "bugs": {
+    "url": "https://github.com/tvrcgo/atom-icons/issues"
+  },
+  "dependencies": {},
+  "description": "The awesome icons for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tvrcgo/atom-icons#readme",
+  "keywords": [
+    "icon"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "atom-icons",
+  "optionalDependencies": {},
+  "readme": "# atom-icons\n\nThe awesome icons for Atom.\n\n![atom-icons](http://tvrcgo.qiniudn.com/github/atom-icons/preview.png)\n\n## License\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvrcgo/atom-icons.git"
+  },
+  "version": "0.2.2"
+}

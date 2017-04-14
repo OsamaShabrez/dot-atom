@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
+        "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
-        "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
+        "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
+        "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-116830-41477-a2uzyp"
+      "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-11736-6166-1c28d19"
     ]
   ],
-  "_from": "../d-116830-41477-wspome/package.tgz",
-  "_id": "goto-definition@1.1.19",
+  "_from": "../d-11736-6166-1fppad9/package.tgz",
+  "_id": "goto-definition@1.3.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/goto-definition",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
+    "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
-    "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
+    "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
+    "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116830-41477-wspome/package.tgz",
-  "_shasum": "58536b9f48bb6fb25b38f4d3534821b5c004c9ca",
+  "_resolved": "file:../d-11736-6166-1fppad9/package.tgz",
+  "_shasum": "f2a01fbaab2085a68bcb73c7114610d811d422c2",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-116830-41477-wspome/package.tgz",
-  "_where": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-116830-41477-a2uzyp",
+  "_spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11736-6166-1fppad9/package.tgz",
+  "_where": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-11736-6166-1c28d19",
   "author": {
     "name": "faceair"
   },
@@ -43,26 +43,40 @@
     "url": "https://github.com/faceair/atom-goto-definition/issues"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.1.1"
+    "atom-space-pen-views": "^2.2.0"
   },
   "description": "Goto definition.",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
   "engines": {
     "atom": ">0.50.0"
   },
   "homepage": "https://github.com/faceair/atom-goto-definition#readme",
-  "license": "MIT",
+  "license": "GPL",
   "main": "./lib/goto-definition",
   "name": "goto-definition",
   "optionalDependencies": {},
-  "readme": "# Goto Definition\n\n![demo](http://ww1.sinaimg.cn/large/71ef46c1jw1f0f2vkw1aeg218f0p77rg.gif)\n\n* Support `JavaScript(ES6 && JSX)`, `TypeScript`, `CoffeeScript`, `Python`, `Ruby`, `PHP`, `Hack`, `Perl`, `KRL` languages\n* Works with Mac OSX, Linux and Windows\n* Goto-Definition functionality, by default on `Alt+Cmd+Enter`/`Ctrl+Alt+Enter`\n\n### Notice\n\n* If you want include VCS ignored paths, please turn `Settings -> Exclude VCS Ignored Paths` option off.\n",
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# Goto Definition\n\n[![macOS & Linux Build Status](https://travis-ci.org/faceair/atom-goto-definition.svg?branch=master)](https://travis-ci.org/faceair/atom-goto-definition)\n[![Windows Build Status](https://ci.appveyor.com/api/projects/status/q8lttuxttxf69xs4?svg=true)](https://ci.appveyor.com/project/faceair/atom-goto-definition)\n[![dependencies Status](https://david-dm.org/faceair/atom-goto-definition/status.svg)](https://david-dm.org/faceair/atom-goto-definition)\n\n![demo](http://ww1.sinaimg.cn/large/71ef46c1ly1fdt8wgbaiqg20zi0j8hdu.gif)\n\n* Support for `JavaScript(ES6 && JSX)`, `TypeScript`, `CoffeeScript`, `Python`, `Ruby`, `PHP`, `Hack`, `Perl`, `KRL`, `Erb`, `Haml`, `C/C++`, `Puppet`, `ASP`, `Shell`\n* Works with Mac OSX, Linux and Windows\n* Goto-Definition functionality, by default on `Alt+Cmd+Enter`/`Ctrl+Alt+Enter`\n* Support [hyperclick](https://atom.io/packages/hyperclick), `<cmd-click>` on a word to jump it's declaration\n\n## Installing\nInstall the package ```goto-definition``` in Atom (Preferences->Install) or use Atom's package manager from a shell:  \n```\n$ apm install goto-definition\n```\n\n## Performance Mode\n\nPerformance mode is 10x faster then nomal model. if you want a better experience, please open the performance mode.\n\nSteps:\n\n1. Install `ripgrep`, see [https://github.com/BurntSushi/ripgrep#installation](https://github.com/BurntSushi/ripgrep#installation). Yeap, now we use `ripgrep` to search definitions, because of it's incredibly fast.\n2. Turn `Settings -> Packages -> goto-definition -> Settings -> Performance Mode` on.\n3. Enjoy it.\n\nNow the performance model is still testing, welcome suggestions and feedback. If it goes well, we will open the performance mode by default in the next version.\n\n### Ignoring files\n\nIn performance mode, if you want ignore some files, you can create a file called `.ignore` in the root of the project, it working like `.gitignore`.\n\n### Notice\n\n* In nomal model, if you want include VCS ignored paths, please turn `Settings -> Exclude VCS Ignored Paths` option off.\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/faceair/atom-goto-definition.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "apm test"
   },
-  "version": "1.1.19"
+  "version": "1.3.1"
 }

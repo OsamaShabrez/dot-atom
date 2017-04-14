@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
+        "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
-        "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
+        "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
+        "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-11696-8379-pt6wig"
+      "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-117221-5810-70gx09"
     ]
   ],
-  "_from": "../d-11696-8379-phx0tr/package.tgz",
-  "_id": "pigments@0.37.0",
+  "_from": "../d-117221-5810-1f3bwd3/package.tgz",
+  "_id": "pigments@0.39.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/pigments",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
+    "raw": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
-    "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
+    "rawSpec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
+    "spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11696-8379-phx0tr/package.tgz",
-  "_shasum": "2c8e92049614b6c274aad087caee9c3e3658fa18",
+  "_resolved": "file:../d-117221-5810-1f3bwd3/package.tgz",
+  "_shasum": "23f890a2510ca1e31a276e9139c1fd1772cffb4f",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-11696-8379-phx0tr/package.tgz",
-  "_where": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-11696-8379-pt6wig",
+  "_spec": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/d-117221-5810-1f3bwd3/package.tgz",
+  "_where": "/private/var/folders/sl/4zm9bngn609bfmhj2p52yf1w0000gp/T/apm-install-dir-117221-5810-70gx09",
   "bugs": {
     "url": "https://github.com/abe33/atom-pigments/issues"
   },
@@ -142,6 +142,13 @@
       "type": "boolean",
       "default": false,
       "description": "When enabled, the autocomplete provider will suggests color variables from hexadecimal values."
+    },
+    "maxDecorationsInGutter": {
+      "type": "integer",
+      "default": 100,
+      "min": 1,
+      "max": 100,
+      "description": "Sets a limit on how many decorations can be displayed in the gutter for the same row"
     },
     "markerType": {
       "type": "string",
@@ -250,7 +257,7 @@
     "temp": "~0.8.1"
   },
   "engines": {
-    "atom": ">=1.7.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "homepage": "https://github.com/abe33/atom-pigments#readme",
   "keywords": [
@@ -284,7 +291,7 @@
     "type": "git",
     "url": "git+https://github.com/abe33/atom-pigments.git"
   },
-  "version": "0.37.0",
+  "version": "0.39.1",
   "viewProviders": [
     "pigmentsViewProvider"
   ]
